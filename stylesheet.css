@@ -1,0 +1,57 @@
+#title{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia;
+    color: darkblue;
+
+}
+body{
+    background-color: antiquewhite;
+}
+#difficulty{
+    margin-top: 30px;
+    text-align: center;
+    font-size: large;
+}
+#myButton{
+    font-size: large;
+}
+#diff{
+    font-size: larger;
+
+}
+
+#blank{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10px;
+}
+#guess{
+    text-align: center;
+}
+#lives{
+    font-size: xx-large;
+}
+#livesRemaining{
+    font-size: larger;
+    margin-top: 50px;
+}
+#graveyard{
+ font-size: xx-large;
+}
+#grave{
+    font-size: larger;
+}
+#myDiv{
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#man{
+    margin-top: 30px;
+    text-align: center;
+    border-color: black;
+}

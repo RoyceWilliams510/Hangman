@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="hangman.js"></script>
+</head>
+<body onload="makeButtons()">
+<div id="title">
+Hangman
+</div>
+<div id="diff">
+     Difficulty:
+<select id="difficulty">
+    <option value="1">Easy</option>
+    <option value="2">Medium</option>
+    <option value="3">Hard</option>
+</select>
+    <button id="myButton" onclick="giveWord()">Play!</button>
+</div>
+
+<div id="myDiv"></div>
+
+<div id="grave">
+    Graveyard:
+</div>
+<div id="graveyard"></div>
+
+
+<div id ="livesRemaining">
+    Lives remaining:
+</div>
+<div id="lives">
+</div>
+
+<div id="blank"></div>
+
+<div id ="man"></div>
+
+</body>
+</html>
